@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.list{
+  display: flex;
+  justify-content: center;
+ 
+ }
+ .nav-list{
+     /*padding: 40px;*/
+     font-weight: 500;
+     white-space: nowrap;
+     line-height: 10px;
+     display: flex;
+     justify-content: space-around;
+   }
+ 
+   #Service:hover .menu{
+     display: flex;
+     flex-direction: column;
+     
+   }
+   .menu{
+     display:none;  
+     position: absolute;
+     top:55px;
+     width: 10%;
+     margin-top: 3%;
+     background-color: #fff;
+     color: #000;
+     border: 2px solid skyblue;
+     padding: 40px 20px;
+     margin: 20px;
+     left: 650px;
+     line-height: 1;
+   }
+
+   #home:hover .menu{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .menu1{
+    display:none;  
+    position: absolute;
+    top:50px;
+    width: 10%;
+    margin-top: 10%;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid skyblue;
+    padding: 40px 20px;
+    margin: 20px;
+    left: 650px;
+    line-height: 9;
+  }

@@ -1,0 +1,26 @@
+.list{
+ display: flex;
+ flex-direction: row-reverse;
+
+}
+.nav-list{
+    padding: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 0px;
+  }
+
+  #Services:hover .menu{
+    display: flex;
+    position: absolute;
+    top: 100px;
+  }
+  .menu{
+    display:none;  
+    position: absolute;
+    top: px;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    
+  }
