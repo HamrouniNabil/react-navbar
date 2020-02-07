@@ -2,15 +2,15 @@ import React from "react";
 
 function Navbar({ linksArray }) {
   return (
-    <ul className=" nav-list">
-      {linksArray.map((el, key) => (
-        <li key={key}>
+      
+    <ul className="list">
+      {linksArray.map((el, key) => (<li className={el.subMenu?"service":""} key={key}>
           {el.title}
           {el.subMenu && (
             <ul className="menu">
-              {el.subMenu.map((el, i) => (
-                <li key={i}>{el}</li>
-              ))}
+             {el.subMenu.map((el, i) => (
+                <li  key={i}>{el}</li>
+              )) }
             </ul>
           )}
         </li>

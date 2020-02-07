@@ -4,12 +4,12 @@ import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   const linksArray = [
-    { title: "Home", subMenu: null },
+    { title: "Home", subMenu:null },
     {
-      title: "Sercices",
+      title: "Services",
       subMenu: ["For Entrepreneurs", "For Students", "For Hobbyists"]
     },
-    { title: "Contact", subMenu: null }
+    { title: "Contact" , subMenu:null }
   ];
 
   return (
